@@ -92,6 +92,10 @@ The test suite covers initialization, donations, and withdrawals.
 
 See the contract code in `contracts/hello-world/src/lib.rs` for detailed function signatures and implementations.
 
+## Transaction Link
+
+[View Transaction on Stellar Expert](https://stellar.expert/explorer/testnet/tx/CCAVSF4ULWPBHD6MSOUMUGMK5SCQN3QJ76XST2UXM5LZBZYJ6YKJP7LR)
+
 ## Contributing
 
 Contributions are welcome. Please ensure tests pass and follow the existing code style.
