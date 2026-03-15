@@ -20,7 +20,7 @@ The Donation Box contract allows users to donate funds to a centralized box. The
 ```
 .
 ├── contracts
-│   └── hello-world
+│   └── donationbox
 │       ├── src
 │       │   ├── lib.rs
 │       │   └── test.rs
@@ -47,7 +47,7 @@ To deploy the contract to a Soroban network:
 2. Deploy using Soroban CLI:
 
 ```bash
-soroban contract deploy --wasm target/wasm32-unknown-unknown/release/hello_world.wasm --source <your-source>
+soroban contract deploy --wasm target/wasm32-unknown-unknown/release/donationbox.wasm --source <your-source>
 ```
 
 ## Usage
@@ -90,11 +90,20 @@ The test suite covers initialization, donations, and withdrawals.
 
 ## API Reference
 
-See the contract code in `contracts/hello-world/src/lib.rs` for detailed function signatures and implementations.
+See the contract code in `contracts/donationbox/src/lib.rs` for detailed function signatures and implementations.
 
 ## Transaction Link
 
 [View Transaction on Stellar Expert](https://stellar.expert/explorer/testnet/tx/CCAVSF4ULWPBHD6MSOUMUGMK5SCQN3QJ76XST2UXM5LZBZYJ6YKJP7LR)
+
+## Image Upload
+
+To include images in the project documentation, upload them to the `images/` directory and reference them in the README or other files.
+
+Example:
+
+![Donation Box](donationbox-image.png)
+
 
 ## Contributing
 
